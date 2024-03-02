@@ -5,8 +5,8 @@ import (
 	"io/fs"
 	"testing"
 
-	"github.com/gobuffalo/buffalo/internal/testdata/embedded"
 	"github.com/stretchr/testify/require"
+	"github.com/thegodwinproject/buffalo/internal/testdata/embedded"
 )
 
 func Test_FS_Disallows_Parent_Folders(t *testing.T) {

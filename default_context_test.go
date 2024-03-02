@@ -8,10 +8,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/gobuffalo/buffalo/render"
 	"github.com/gobuffalo/httptest"
 	"github.com/gobuffalo/logger"
 	"github.com/stretchr/testify/require"
+	"github.com/thegodwinproject/buffalo/render"
 )
 
 func basicContext() DefaultContext {

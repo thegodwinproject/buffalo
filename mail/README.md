@@ -1,4 +1,4 @@
-# github.com/gobuffalo/buffalo/mail
+# github.com/thegodwinproject/buffalo/mail
 
 This package is intended to allow easy Email sending with Buffalo, it allows you to define your custom `mail.Sender` for the provider you would like to use.
 
@@ -18,10 +18,10 @@ import (
     "log"
     "net/http"
 
-    "github.com/gobuffalo/buffalo/render"
+    "github.com/thegodwinproject/buffalo/render"
     "github.com/gobuffalo/envy"
     "github.com/gobuffalo/plush"
-    "github.com/gobuffalo/buffalo/mail"
+    "github.com/thegodwinproject/buffalo/mail"
     "errors"
     "gitlab.com/wawandco/app/models"
 )

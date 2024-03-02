@@ -133,7 +133,7 @@ func (ms *MiddlewareStack) Replace(mw1 MiddlewareFunc, mw2 MiddlewareFunc) {
 // responsibility of handler but this middleware make it sure the response
 // should be compatible with middleware specification.
 //
-// See also: https://github.com/gobuffalo/buffalo/issues/2339
+// See also: https://github.com/thegodwinproject/buffalo/issues/2339
 func assertMiddleware(handler Handler) Handler {
 	return func(c Context) error {
 		err := handler(c)

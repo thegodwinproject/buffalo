@@ -11,10 +11,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gobuffalo/buffalo/internal/defaults"
-	"github.com/gobuffalo/buffalo/internal/httpx"
 	"github.com/gobuffalo/events"
 	"github.com/gobuffalo/plush/v4"
+	"github.com/thegodwinproject/buffalo/internal/defaults"
+	"github.com/thegodwinproject/buffalo/internal/httpx"
 )
 
 // HTTPError a typed error returned by http Handlers and used for choosing error handlers

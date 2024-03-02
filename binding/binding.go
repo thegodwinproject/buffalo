@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/gobuffalo/buffalo/binding/decoders"
 	"github.com/gobuffalo/nulls"
 	"github.com/monoculum/formam"
+	"github.com/thegodwinproject/buffalo/binding/decoders"
 )
 
 var (

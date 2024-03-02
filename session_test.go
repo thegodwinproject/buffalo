@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gobuffalo/buffalo/render"
 	"github.com/gobuffalo/httptest"
+	"github.com/thegodwinproject/buffalo/render"
 
 	"github.com/stretchr/testify/require"
 )

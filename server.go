@@ -11,9 +11,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/gobuffalo/buffalo/servers"
 	"github.com/gobuffalo/events"
 	"github.com/gobuffalo/refresh/refresh/web"
+	"github.com/thegodwinproject/buffalo/servers"
 )
 
 // Serve the application at the specified address/port and listen for OS

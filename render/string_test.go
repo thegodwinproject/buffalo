@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/gobuffalo/buffalo/render"
 	"github.com/stretchr/testify/require"
+	"github.com/thegodwinproject/buffalo/render"
 )
 
 func Test_String(t *testing.T) {

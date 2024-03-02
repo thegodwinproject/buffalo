@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/gobuffalo/buffalo"
-	"github.com/gobuffalo/buffalo/render"
+	"github.com/thegodwinproject/buffalo"
+	"github.com/thegodwinproject/buffalo/render"
 )
 
 // NewMessage builds a new message.

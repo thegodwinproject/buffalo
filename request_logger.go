@@ -7,7 +7,7 @@ import (
 	"time"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/gobuffalo/buffalo/internal/httpx"
+	"github.com/thegodwinproject/buffalo/internal/httpx"
 )
 
 // RequestLogger can be be overridden to a user specified

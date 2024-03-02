@@ -6,10 +6,10 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/gobuffalo/buffalo/binding"
-	"github.com/gobuffalo/buffalo/internal/httpx"
-	"github.com/gobuffalo/buffalo/render"
 	"github.com/gorilla/mux"
+	"github.com/thegodwinproject/buffalo/binding"
+	"github.com/thegodwinproject/buffalo/internal/httpx"
+	"github.com/thegodwinproject/buffalo/render"
 )
 
 // Context holds on to information as you

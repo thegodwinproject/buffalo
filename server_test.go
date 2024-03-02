@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gobuffalo/buffalo/render"
-	"github.com/gobuffalo/buffalo/worker"
 	"github.com/stretchr/testify/require"
+	"github.com/thegodwinproject/buffalo/render"
+	"github.com/thegodwinproject/buffalo/worker"
 )
 
 // All tests in this file requires certain amount of waiting and they are

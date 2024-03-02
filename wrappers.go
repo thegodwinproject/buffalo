@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/gobuffalo/buffalo/internal/httpx"
 	"github.com/gorilla/mux"
+	"github.com/thegodwinproject/buffalo/internal/httpx"
 )
 
 // WrapHandler wraps a standard http.Handler and transforms it

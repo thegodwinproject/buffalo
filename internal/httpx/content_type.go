@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/gobuffalo/buffalo/internal/defaults"
+	"github.com/thegodwinproject/buffalo/internal/defaults"
 )
 
 func ContentType(req *http.Request) string {

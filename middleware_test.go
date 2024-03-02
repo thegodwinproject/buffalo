@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/gobuffalo/buffalo/render"
 	"github.com/gobuffalo/httptest"
 	"github.com/stretchr/testify/require"
+	"github.com/thegodwinproject/buffalo/render"
 )
 
 // Test_App_Use tests that middleware gets added

@@ -18,7 +18,7 @@ RUN npm i -g --no-progress yarn \
 
 # Installing buffalo binary
 RUN go install github.com/gobuffalo/cli/cmd/buffalo@latest
-RUN go get github.com/gobuffalo/buffalo-pop/v2
+RUN go get github.com/thegodwinproject/buffalo-pop/v2
 
 RUN mkdir /src
 WORKDIR /src

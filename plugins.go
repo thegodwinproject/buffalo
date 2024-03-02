@@ -8,9 +8,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gobuffalo/buffalo/plugins"
 	"github.com/gobuffalo/envy"
 	"github.com/gobuffalo/events"
+	"github.com/thegodwinproject/buffalo/plugins"
 )
 
 var loadPlugins sync.Once

@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gobuffalo/buffalo"
-	"github.com/gobuffalo/buffalo/binding"
-	"github.com/gobuffalo/buffalo/render"
 	"github.com/stretchr/testify/require"
+	"github.com/thegodwinproject/buffalo"
+	"github.com/thegodwinproject/buffalo/binding"
+	"github.com/thegodwinproject/buffalo/render"
 )
 
 type WithFile struct {

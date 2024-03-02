@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-//testLoggerHook is useful to test whats being logged.
+// testLoggerHook is useful to test whats being logged.
 type testLoggerHook struct {
 	errors []*logrus.Entry
 }
@@ -165,7 +165,7 @@ func Test_PanicHandler(t *testing.T) {
 		{"/error", "error boom"},
 	}
 
-	const stack = `github.com/gobuffalo/buffalo.Test_PanicHandler`
+	const stack = `github.com/thegodwinproject/buffalo.Test_PanicHandler`
 
 	w := httptest.New(app)
 	for _, tt := range table {

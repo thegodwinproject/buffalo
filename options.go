@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/gobuffalo/buffalo/internal/defaults"
-	"github.com/gobuffalo/buffalo/worker"
 	"github.com/gobuffalo/envy"
 	"github.com/gobuffalo/logger"
 	"github.com/gorilla/sessions"
+	"github.com/thegodwinproject/buffalo/internal/defaults"
+	"github.com/thegodwinproject/buffalo/worker"
 )
 
 // Options are used to configure and define how your application should run.

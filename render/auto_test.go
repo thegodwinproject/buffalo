@@ -5,11 +5,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gobuffalo/buffalo"
-	"github.com/gobuffalo/buffalo/render"
 	"github.com/gobuffalo/httptest"
 	"github.com/psanford/memfs"
 	"github.com/stretchr/testify/require"
+	"github.com/thegodwinproject/buffalo"
+	"github.com/thegodwinproject/buffalo/render"
 )
 
 type Car struct {

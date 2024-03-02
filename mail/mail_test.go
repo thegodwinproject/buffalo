@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/gobuffalo/buffalo"
-	"github.com/gobuffalo/buffalo/render"
 	"github.com/gobuffalo/httptest"
 	"github.com/stretchr/testify/require"
+	"github.com/thegodwinproject/buffalo"
+	"github.com/thegodwinproject/buffalo/render"
 )
 
 func Test_NewFromData(t *testing.T) {

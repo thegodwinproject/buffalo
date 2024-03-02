@@ -3,7 +3,7 @@ package buffalo
 import (
 	"net/http"
 
-	"github.com/gobuffalo/buffalo/internal/defaults"
+	"github.com/thegodwinproject/buffalo/internal/defaults"
 )
 
 // MethodOverride is the default implementation for the

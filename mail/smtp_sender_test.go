@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/gobuffalo/buffalo/internal/fakesmtp"
-	"github.com/gobuffalo/buffalo/mail"
-	"github.com/gobuffalo/buffalo/render"
 	"github.com/stretchr/testify/require"
+	"github.com/thegodwinproject/buffalo/internal/fakesmtp"
+	"github.com/thegodwinproject/buffalo/mail"
+	"github.com/thegodwinproject/buffalo/render"
 )
 
 var sender mail.Sender

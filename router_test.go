@@ -9,12 +9,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gobuffalo/buffalo/render"
 	"github.com/gobuffalo/envy"
 	"github.com/gobuffalo/httptest"
 	"github.com/gorilla/mux"
 	"github.com/psanford/memfs"
 	"github.com/stretchr/testify/require"
+	"github.com/thegodwinproject/buffalo/render"
 )
 
 func testApp() *App {
