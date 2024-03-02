@@ -1,6 +1,5 @@
 name: Standard Test
 
-
 on:
   push:
     branches: [ main v1 ]
@@ -9,5 +8,5 @@ on:
 jobs:
   call-standard-test:
     name: Test
-    uses: thegodwinproject/.github/.github/workflows/go-test.yml@v1
+    uses: thegodwinproject/.github/.github/workflows/go-test.yml@v1.1
     secrets: inherit
